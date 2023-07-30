@@ -1,0 +1,11 @@
+li::marker{
+  font-size: x-large;
+    color: aqua;
+}
+ .main{ 
+/* background:url('https://w7.pngwing.com/pngs/599/417/png-transparent-react-angularjs-javascript-library-node-js-github-symmetry-web-application-nodejs.png') */
+background:url('https://res.cloudinary.com/practicaldev/image/fetch/s--Fn9qUGmY--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6r0jx20eopajy1gvz3m5.png');
+   background-position: right;
+    background-repeat: no-repeat;
+   
+} 
