@@ -14,7 +14,7 @@ export default function App() {
     <main className=' Container vh-100'>
       {/* <Navbar />
       <Main /> */}
-      {/* Probs */}
+      {/* props in react */}
       <Contant />
       <h1>helllo {firstName} {lastName}</h1>
     </main>
