@@ -1,8 +1,13 @@
 export default function jokesCon(props) {
+  // {/*Map*/}
+  // let a = ["apple","boy","cat"]
+  //   a.map((e)=>{
+  //     console.log(e.charAt(0).toLocaleUpperCase() + e)
+  //   })
   return (
     <div className='bg-white text-blue-400 p-4 m-4 text-lg rounded'>
-      {props.SetUp && <h1 className='bg-green-300'>SETUP : {props.SetUp}</h1>}
       {/* <h1 style={{ display: props.SetUp ? "block" :"none"}} className='bg-green-300'>SETUP : {props.SetUp}</h1> */}
+      <h1 className='bg-green-300'>SETUP : {props.SetUp}</h1>
       <p>{props.Punchline}</p>
     </div>
   )
@@ -16,3 +21,5 @@ export default function jokesCon(props) {
 //     </div>
 //   )
 // }
+
+
