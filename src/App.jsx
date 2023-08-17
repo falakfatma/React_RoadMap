@@ -8,7 +8,8 @@ import './App.css'
 // import Joke from './components/joke'
 // import JokeData from './components/jokeData'
 // import EventListener from './components/eventListenerInJs'
-import Date from './components/Date'
+// import Date from './components/Date'
+import State from './components/State'
 
 export default function App() {
   // let item = ['thing1', 'thing2']
@@ -36,10 +37,11 @@ export default function App() {
   // })
   return (
     <main className='flex flex-wrap bg-gray-100'>
-      
+
       {/* <button onClick={addItem} className='p-2 hover:bg-sky-700 text-2xl hover:text-blue-200 border-2 m-4 border-slate-900 '>Add Item </button>
       {eachItem} */}
-      <Date />
+      <State />
+      {/* <Date /> */}
       {/* <EventListener /> */}
       {/* <h1>{JokeDataMap}</h1> */}
       {/* <JokeData />/ */}
