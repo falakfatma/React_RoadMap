@@ -5,24 +5,43 @@ import './App.css'
 // import Navbar from './components/Navbar'
 // import Main from './components/Main'
 // import Contant from './components/Contant'
-import Joke from './joke'
-import JokeData from './jokeData'
+// import Joke from './components/joke'
+// import JokeData from './components/jokeData'
+// import EventListener from './components/eventListenerInJs'
+import Date from './components/Date'
 
 export default function App() {
+  // let item = ['thing1', 'thing2']
+
+  // let eachItem = item.map((e) => {
+  //   console.log(e)
+  //   return <p key={e} className='block'>{e}</p>
+  // })
+
+  // let addItem = () => {
+  //   item.push('thing' + item.length)
+  //   console.log(item)
+  // }
+
   // const firstName = 'maria'
   // const lastName = 'omeano'
-  const fruits = [
-    <h3>mango</h3>,
-    <h3>apple</h3>,
-    <h3>banana</h3>,
-    <h3>pine-apple</h3>
-  ]
-  let JokeDataMap = JokeData.map((joke) => {
-    return <Joke SetUp={joke.SetUp} Punchline={joke.Punchline} />
-  })
+  // const fruits = [
+  //   <h3>mango</h3>,
+  //   <h3>apple</h3>,
+  //   <h3>banana</h3>,
+  //   <h3>pine-apple</h3>
+  // ]
+  // let JokeDataMap = JokeData.map((joke) => {
+  //   return <Joke SetUp={joke.SetUp} Punchline={joke.Punchline} />
+  // })
   return (
     <main className='flex flex-wrap bg-gray-100'>
-      <h1>{JokeDataMap}</h1>
+      
+      {/* <button onClick={addItem} className='p-2 hover:bg-sky-700 text-2xl hover:text-blue-200 border-2 m-4 border-slate-900 '>Add Item </button>
+      {eachItem} */}
+      <Date />
+      {/* <EventListener /> */}
+      {/* <h1>{JokeDataMap}</h1> */}
       {/* <JokeData />/ */}
       {/* <Navbar />
       <Main /> */}
