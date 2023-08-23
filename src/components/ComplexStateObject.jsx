@@ -5,13 +5,13 @@ export default function Objects() {
     name: "Alicia Doe",
     number: "+1 (849)890-5720",
     email: "itsmyfakename@gmail.com",
-    profileImage: "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359554_1280.png",
+    profileImage: "",
     starImageEmpty: "",
     starImageFilled: "",
     isFavourate: true
   })
 
-  let setImage = contact.isFavourate ? "https://img.freepik.com/premium-vector/star-icon-white-background_212417-976.jpg?w=2000" : "https://www.freeiconspng.com/thumbs/white-star-icon/white-star-icon-11.png";
+  let setImage = contact.isFavourate ? "" : "";
   // +++++++If Else Also Write This ++++++++++ 
 
   // if (contact.isFavourate) {
