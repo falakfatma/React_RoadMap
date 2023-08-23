@@ -11,6 +11,7 @@ import './App.css'
 // import EventListener from './components/eventListenerInJs'
 // import Date from './components/Date'
 // import State from './components/State'
+import ObjectCard from './components/ComplexStateObject'
 
 export default function App() {
   // let [item, setItem] = React.useState(['thing1', 'thing2'])
@@ -22,18 +23,18 @@ export default function App() {
   // })
 
   // ${preState} 
-  const [dataOfArray, setDataOfArray] = React.useState(['apple1', 'apple2'])
-  let addItem = () => {
-    setDataOfArray((preData) => {
-      return [...preData, `thing${dataOfArray.length+1}`]
-    })
-    // console.log()
-  }
-  const dataInEle = dataOfArray.map((e) => {
-    return <p>{e}</p>
-    // console.log(e)
-  })
-  console.log(dataOfArray)
+  // const [dataOfArray, setDataOfArray] = React.useState(['apple1', 'apple2'])
+  // let addItem = () => {
+  //   setDataOfArray((preData) => {
+  //     return [...preData, `thing${dataOfArray.length+1}`]
+  //   })
+  //   // console.log()
+  // }
+  // const dataInEle = dataOfArray.map((e) => {
+  //   return <p>{e}</p>
+  //   // console.log(e)
+  // })
+  // console.log(dataOfArray)
   // const firstName = 'maria'
   // const lastName = 'omeano'
   // const fruits = [
@@ -47,9 +48,10 @@ export default function App() {
   // })
   return (
     <main className='flex flex-wrap bg-gray-100'>
-
+      <ObjectCard />
+{/* 
       <button onClick={addItem} className='p-2 hover:bg-sky-700 text-2xl hover:text-blue-200 border-2 m-4 border-slate-900 '>Add Item </button>
-      {dataInEle}
+      {dataInEle} */}
       {/* {item} */}
       {/* <State /> */}
       {/* <Date /> */}
